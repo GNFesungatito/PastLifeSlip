@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pen</title>
+  </head>
+  <body>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex">
+<title>测测你的上一世</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="card" id="app">
+
+  <!-- 入口口令 -->
+  <div id="gate">
+    <div class="gate-title">上一世 · 身份测试</div>
+    <p class="gate-sub">输入分享者给你的口令<br><em>凭直觉选择，不必多想</em></p>
+    <input type="text" id="gateInput" placeholder="输入口令" autocomplete="off">
+    <button class="primary" onclick="checkGate()">进入测试</button>
+    <p class="msg" id="gateMsg"></p>
+    <p class="tip">仅供娱乐参考，不构成专业诊断。</p>
+  </div>
+
+  <!-- 答题 -->
+  <div id="quiz" class="hidden"></div>
+
+  <!-- 结果 -->
+  <div id="result" class="hidden"></div>
+
+</div>
+<script src="script.js"></script>
+</body>
+</html>
